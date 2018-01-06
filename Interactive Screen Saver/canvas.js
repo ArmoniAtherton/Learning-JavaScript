@@ -92,6 +92,10 @@ function animate() {
            circleArray[i].update();
         }
     }
+    c.font = "100px Impact";
+    c.fillStyle = "black";
+    c.textAlign = "center";
+    c.fillText("Armoni Atherton", canvas.width/2, canvas.height/2); 
 
 }
 init();
